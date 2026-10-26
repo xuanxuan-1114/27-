@@ -100,9 +100,9 @@ GPIO是General Purpose Input/Output，即通用输入输出接口。
 # 中断系统
 中断是CPU暂时停止当前程序，转去处理紧急事件，处理完成后再返回原程序的机制。
 
-## 终端与轮询
+## 中断与轮询
 **轮询**：CPU不断检查外设状态。
-**终端**：UART收到数据后主动通知CPU。
+**中断**：UART收到数据后主动通知CPU。
 ## NVIC
 Nested Vectored Interrupt Controller，嵌套向量中断控制器。
 主要负责：
